@@ -16,7 +16,8 @@ void setup()
     pinMode(trigger_pin, OUTPUT);
     pinMode(echo_pin, INPUT);
     pinMode(buzzer_pin, OUTPUT);
-    pinMode(13, OUTPUT);
+    pinMode(PINOA, OUTPUT);
+    pinMode(PINOB, OUTPUT);
 }
 
 void loop()
