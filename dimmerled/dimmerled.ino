@@ -1,10 +1,12 @@
+#define LED1 5
+
 int brilho = 0;
 int sinal = 1;
 
 // Preparação do Arduino, este código irá rodar uma única vez
 void setup()
 {
-  pinMode(5, OUTPUT);
+  pinMode(LED1, OUTPUT);
 }
 
 // Este código é chamado automaticamente pelo Arduino, ficará em
@@ -12,7 +14,7 @@ void setup()
 void loop()
 {
   // Atualizamos a intensidade do pino 5 com o ultimo valor de brilho
-  analogWrite(5, brilho);
+  analogWrite(LED1, brilho);
 
   // Incrementamos o brilho em 5
   brilho += (5 * sinal);
