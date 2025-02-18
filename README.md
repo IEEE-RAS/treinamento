@@ -18,6 +18,10 @@ git clone https://github.com/IEEE-RAS/treinamento.git
 
 ![montagem led](/img/montagem_LED.png)
 
+### Pushbutton
+
+![montagem botão](/img/montagem_pushbutton.png)
+
 ### Sensor Infravermelho
 
 ![montagem IR](/img/montagem_infravermelho.png)
