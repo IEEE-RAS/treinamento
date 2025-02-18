@@ -11,3 +11,17 @@ Para clonar este repositório acesse a pasta `Arduino` citada anteriormente e de
 ```bash
 git clone https://github.com/IEEE-RAS/treinamento.git
 ```
+
+## Montagens
+
+### Pisca e Dimmer LED
+
+![montagem led](/img/montagem_LED.png)
+
+### Sensor Infravermelho
+
+![montagem IR](/img/montagem_infravermelho.png)
+
+### Sensor Ultrassom
+
+![montagem ultrassom](/img/montagem_ultrassom.png)
